@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BTS CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--BTS JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--My JS-->
+    <script src="index.js" defer></script>
+    <title>Ejecicio POO 1</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Taller-1 POO</h1>
+        <div class="form-floating mb-3">
+            <select class="form-select" id="tipo" aria-label="Floating label select example">
+              <option value="Persona" selected>Persona</option>
+              <option value="Estudiante">Estudiante</option>
+            </select>
+            <label for="floatingSelect">Tipo de persona</label>
+        </div>
+        <form action="" id="formulario">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre" placeholder="nombre">
+                <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="edad" placeholder="edad">
+                <label for="floatingPassword">Edad</label>
+            </div>
+            <div class="form-floating mb-3">
+                <select class="form-select" id="sexo" aria-label="Floating label select example">
+                  <option selected>Open this select menu</option>
+                  <option value="Masculino">Hombre</option>
+                  <option value="Femenino">Mujer</option>
+                </select>
+                <label for="floatingSelect">Sexo</label>
+            </div>
+            <div id="carreraArea">
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Messages" id="messages" style="height: 100px" disabled></textarea>
+                <label for="floatingTextarea2">Messages</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="mayor" placeholder="mayor" disabled>
+                <label for="floatingPassword">¿Es mayor de edad?</label>
+            </div>
+            <input class="btn btn-dark"  type="button" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
